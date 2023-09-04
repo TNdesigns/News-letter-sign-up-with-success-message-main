@@ -1,0 +1,319 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background-color:hsl(235, 18%, 26%);
+}
+.dsktp-bx{
+    height:485px;
+    width:700px;
+    background-color: white;
+    position: relative;
+    top:130px;
+    left:310px;
+    border-radius: 20px;
+}
+.svg{
+    background-image: url(images/illustration-sign-up-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height:460px;
+    width:300px;
+    position: relative;
+    top:20px;
+    left:380px;
+}
+h1{
+    font-size: 43px;
+    font-family: "Roboto";
+    color:hsl(234, 29%, 20%);
+    position: relative;
+    top:-385px;
+    left:50px;
+}
+.px{
+    color:hsl(235, 18%, 26%);
+    font-family: "Roboto";
+    font-size:12px;
+    position:relative;
+    top:-370px;
+    left:50px;
+    margin-right:400px;
+}
+.svgtx{
+    position: relative;
+    top:-25px;
+    left:34px;
+    font-size:12px;
+    font-family:"Roboto";
+    color:hsl(235, 18%, 26%);
+}
+.list1{
+    position: relative;
+    top:-346px;
+    left:50px;
+}
+.list2{
+    position: relative;
+    top:-356px;
+    left:50px;
+}
+.list3{
+    position: relative;
+    top:-366px;
+    left:50px;
+}
+.p1{
+    position: relative;
+    top:-355px;
+    left:50px;
+    font-family:"Roboto";
+    font-size:10px;
+}
+#email{
+    position: relative;
+    top:-350px;
+    left:50px;
+    height:37px;
+    width:270px;
+    border-radius: 5px;
+    border-color:hsl(231, 7%, 60%);
+}
+#button{
+    position: relative;
+    top:-345px;
+    left:50px;
+    height:40px;
+    width:275px;
+    border-radius: 5px;
+    border-color:transparent;
+    background-color:hsl(234, 29%, 20%);
+    color:white;
+    font-family: "Roboto";
+}
+#button:hover{
+    cursor:pointer;
+    background-color: hsl(4, 100%, 67%);
+}
+#email:hover{
+    cursor: pointer;
+}
+.dsktp-thnks{
+    height:310px;
+    width:310px;
+    background-color:white;
+    border-radius: 20px;
+    position: relative;
+    top:-300px;
+    left:500px;
+    opacity: 0;
+}
+.thnks-svg{
+    position: relative;
+    top:30px;
+    left:35px;
+    height:35px;
+    width:35px;
+}
+.thnks-h1{
+    position: relative;
+    top: 45px;
+    left: 35px;
+    font-family: "Roboto";
+    font-size: 36px;
+}
+.thnks-p{
+    position: relative;
+    top:55px;
+    left:35px;
+    font-family: "Roboto";
+    font-size: 10px;
+    margin-right: 70px;
+    line-height: 16px;
+}
+.thnks-btn{
+    position: relative;
+    top:70px;
+    left:35px;
+    height:35px;
+    width:240px;
+    color:white;
+    background-color:hsl(234, 29%, 20%);
+    border-radius: 5px;
+    border-color: transparent;
+    font-family: "Roboto";
+}
+.thnks-btn:hover{
+    cursor: pointer;
+    background-color:hsl(4, 100%, 67%);
+}
+.mobile-thnks{
+    visibility: hidden;
+}
+#emsg{
+    position: relative;
+    top: -350px;
+    left: 175px;
+    font-size: 11px;
+    color:crimson;
+    font-family: "Roboto";
+    font-style: italic;
+    visibility: hidden;
+}
+#emsg2,#email2,#button2{
+    visibility: hidden;
+}
+@media screen and (max-width:420px){
+    *{
+        margin:0;
+        padding:0;
+    }
+    html,body{
+        overflow-x: hidden;
+        width:100%;
+        height:100%;
+        background-color:white;
+    }
+    .dsktp-bx{
+        visibility:hidden;
+    }
+    .svg0{
+        background-image: url(images/illustration-sign-up-mobile.svg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        height:80vw;
+        width:100vw;
+        visibility: visible;
+        position: relative;
+        top:-143vw;
+        left:-75vw;
+    }
+    h1{
+        position:relative;
+        top:-134vw;
+        left:-68vw;
+        font-family: "Roboto";
+        font-size:12vw;
+        color:hsl(234, 29%, 20%);
+        visibility: visible;
+    }
+    .px{
+        visibility:visible;
+        position: relative;
+        top:-127vw;
+        left:-68vw;
+        font-family: "Roboto";
+        font-size:4.5vw;
+        margin-right:76vw;
+    }
+    .svgtx{
+        font-size:4.6vw;
+        margin-right:84vw;
+    }
+    .list1{
+        visibility: visible;
+        position: relative;
+        top:-120vw;
+        left:-68vw;
+        font-size:4.6vw;
+    }
+    .list2{
+        visibility: visible;
+        position: relative;
+        top:-120vw;
+        left:-68vw;
+        font-size:4.6vw;
+    }
+    .list3{
+        visibility: visible;
+        position: relative;
+        top:-120vw;
+        left:-68vw;
+        font-size:4.6vw;
+    }
+    .p1{
+        visibility: visible;
+        position: relative;
+        top:-115vw;
+        left:-68vw;
+    }
+    .dsktp-thnks{
+        visibility: hidden;
+    }
+    .thnks-h1{
+        visibility: hidden;
+    }
+    .mobile-thnks{
+        visibility: visible;
+        height:230vw;
+        width:100vw;
+        background-color: white;
+        position: relative;
+        top: -195vw;
+        left: 0vw;
+        opacity: 0;
+    }
+    .mobile-svg{
+        height:17vw;
+        width:17vw;
+        position: relative;
+        top:40vw;
+        left:7vw;
+    }
+    .thnks-mh1{
+        position: relative;
+        top:50vw;
+        left:7vw;
+        line-height: 45px;
+    }
+    .thnks-mp{
+        position: relative;
+        top:60vw;
+        left:7vw;
+        margin-right: 11vw;
+        font-family: "Roboto";
+        font-size: 4vw;
+        line-height: 6vw;
+    }
+    .msg-btn{
+        position: relative;
+        top:130vw;
+        left:7vw;
+        height:15vw;
+        width:85vw;
+        background-color:hsl(234, 29%, 20%) ;
+        color:white;
+        border-radius: 2.5vw;
+    }
+    #email2{
+        visibility:visible;
+        position: relative;
+        top:-125vw;
+        left:-136vw;
+        height:13vw;
+        width:84vw;
+        border-radius: 2vw;
+    }
+    #button2{
+        visibility: visible;
+        position: relative;
+        top:-122vw;
+        left:-68vw;
+        height:13vw;
+        width:85vw;
+        background-color:hsl(234, 29%, 20%);
+        color:white;
+        border-radius: 2vw;
+    }
+    #emsg2{
+        visibility: hidden;
+        position: relative;
+        top:-124vw;
+        left: -37vw;
+        font-family: "Roboto";
+        color:crimson;
+        font-size: 4vw;
+        font-style: italic;
+    }
+}
