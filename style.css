@@ -244,11 +244,11 @@ h1{
     }
     .mobile-thnks{
         visibility: visible;
-        height:230vw;
+        height:225vw;
         width:100vw;
         background-color: white;
         position: relative;
-        top: -195vw;
+        top: -235vw;
         left: 0vw;
         opacity: 0;
         z-index: 1;
@@ -300,7 +300,7 @@ h1{
         height:13vw;
         width:84vw;
         border-radius: 2vw;
-        z-index: 1;
+        z-index: 2; /*to make the input box clickable in mobile view*/
     }
     #button2{
         position: relative;
@@ -311,7 +311,7 @@ h1{
         background-color:hsl(234, 29%, 20%);
         color:white;
         border-radius: 2vw;
-        z-index: 1;
+        z-index: 2; /*to make the button clickable in mobile view*/
     }
     #emsg2{
         opacity: 0;
