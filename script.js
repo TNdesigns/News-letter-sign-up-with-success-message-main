@@ -40,9 +40,11 @@ document.addEventListener("DOMContentLoaded", function () {
         } else {
             rrmsg.style.visibility = "hidden";
             mblMsg.style.opacity = "1";
+            mblMsg.style.zIndex = "2";
         }
         mblBtn.addEventListener("click", function () {
             mblMsg.style.opacity = "0";
+            mblMsg.style.zIndex = "0";
         })
     })
 })
