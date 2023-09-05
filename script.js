@@ -34,11 +34,11 @@ document.addEventListener("DOMContentLoaded", function () {
         const ePattern2 = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
 
         if (eValue2 === "") {
-            rrmsg.style.visibility = "visible";
+            rrmsg.style.opacity = "1";
         } else if (!ePattern2.test(eValue2)) {
-            rrmsg.style.visibility = "visible";
+            rrmsg.style.opacity = "1";
         } else {
-            rrmsg.style.visibility = "hidden";
+            rrmsg.style.opacity = "0";
             mblMsg.style.opacity = "1";
             mblMsg.style.zIndex = "2";
         }
